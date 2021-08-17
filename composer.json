@@ -1,8 +1,16 @@
 {
     "name": "hexlet/code",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "Влад Калина",
+            "email": "kv37419@mail.ru"
+        }
+    ],
+    "description": "hexlet php-project 'brain-games'",
     "autoload": {
         "psr-4": {
-            "Hexlet\\Code\\": "src/"
+            "User\\PhpProjectLvl1\\": "src/"
         }
     },
     "require": {}
