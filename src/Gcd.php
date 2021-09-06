@@ -15,14 +15,14 @@ function main() {
     $digit2 = rand(0, 100);
     $divisors1 = [];
     $divisors2 = [];
-    for ($i = 1; $i <= $digit1; $i++) {
-      if ($digit1 % $i == 0) {
-        $divisors1[] = $i;
+    for ($j = 1; $j <= $digit1; $j++) {
+      if ($digit1 % $j == 0) {
+        $divisors1[] = $j;
       }
     }
-    for ($i = 1; $i <= $digit2; $i++) {
-      if ($digit2 % $i == 0) {
-        $divisors2[] = $i;
+    for ($k = 1; $k <= $digit2; $k++) {
+      if ($digit2 % $k == 0) {
+        $divisors2[] = $k;
       }
     }
     $gcd = max(array_intersect($divisors1, $divisors2));
@@ -30,12 +30,11 @@ function main() {
     $answer = prompt('Your answer');
     if ($answer == $gcd) {
       line('Correct!');
-    } 
-    // else {
-    //   line("'{$answer}' is wrong answer ;(. Correct answer was '{$gcd}'.");
-    //   line("Let's try again, {$name}!");
-    //   return false;
-    // }
+    } else {
+      line("'{$answer}' is wrong answer ;(. Correct answer was '{$gcd}'.");
+      line("Let's try again, {$name}!");
+      return false;
+    }
   }
   line("Congratulations, {$name}!");
 }
