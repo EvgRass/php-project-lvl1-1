@@ -24,7 +24,7 @@ function main()
         line('Correct!');
       } else {
         $correctAnswer = $digit1 + $digit2;
-        line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer}");
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
         line("Let's try again, {$name}!");
         return false;
       }
@@ -34,7 +34,7 @@ function main()
         line('Correct!');
       } else {
         $correctAnswer = $digit1 - $digit2;
-        line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer}");
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
         line("Let's try again, {$name}!");
         return false;
       }
@@ -44,7 +44,7 @@ function main()
         line('Correct!');
       } else {
         $correctAnswer = $digit1 * $digit2;
-        line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer}");
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
         line("Let's try again, {$name}!");
         return false;
       }

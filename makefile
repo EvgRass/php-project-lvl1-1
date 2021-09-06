@@ -8,5 +8,7 @@ brain-even:
 	./bin/brain-even
 brain-calc:
 	.bin/brain-even
+brain-gcd:
+	.bin/brain-gcd
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin
