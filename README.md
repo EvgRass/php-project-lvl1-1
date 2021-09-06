@@ -6,4 +6,4 @@
 
 <a target="_blank" href="https://asciinema.org/a/f8Jrdt9xVTU4HSaRpjBxingU3">link to demo brain-calc<a>
 
-<a target="_blank" href="https://asciinema.org/a/RnAs79nIYTqspScZ6SrehW9tf">link to demo brain-calc<a>
+<a target="_blank" href="https://asciinema.org/a/RnAs79nIYTqspScZ6SrehW9tf">link to demo brain-gcd<a>
